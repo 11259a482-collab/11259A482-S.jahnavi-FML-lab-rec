@@ -74,22 +74,4 @@ plt.xlabel("Predicted Class")
 plt.ylabel("Actual Class")
 plt.title("Random Forest - Confusion Matrix")
 plt.show()
-6. Sample Output
-The exact values can vary slightly depending on the train-test split and parameters.
-Random Forest Classification
-----------------------------
-Number of trees: 100
-Accuracy: 0.9666666666666667
-
-Confusion Matrix:
-[[10  0  0]
- [ 0 10  0]
- [ 0  1  9]]
-
-Classification Report:
-
-              precision    recall  f1-score   support
-
-      setosa       1.00      1.00      1.00        10
-  versicolor       0.91      1.00      0.95        10
    virginica       1.00      0.90      0.95        10
